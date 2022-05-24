@@ -1,0 +1,150 @@
+.featured-product {
+  width: 100%;
+  height: 100vh;
+}
+
+.featured-pro-title {
+  text-align: center;
+  position: relative;
+}
+
+.featured-pro-title h3 {
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.featured-pro-title::after {
+  content: "";
+  position: absolute;
+  background: #7fad39;
+  width: 80px;
+  height: 4px;
+  left: 0;
+  right: 0;
+  bottom: -15px;
+  margin: 0 auto;
+}
+
+.featured-pro-menu {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.featured-pro-menu ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  color: #1c1c1c;
+  margin-right: 25px;
+  cursor: pointer;
+  position: relative;
+}
+
+.featured-pro-menu ul li.active:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #7fad39;
+  content: "";
+}
+
+.feature-pro-text {
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  color: #252525;
+  margin-top: 15px;
+}
+
+.feature-pro-text a h6 {
+  text-decoration: none;
+  outline: none;
+}
+
+.feature-pro-text p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* -----------image-------------- */
+.feature-item-pic:hover .feature-pro-control {
+  bottom: -5px;
+}
+.feature-pro-single {
+  margin-bottom: 50px;
+}
+
+.feature-item-pic {
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+  background: #252525;
+  background-position: center center;
+}
+
+.feature-item-pic img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.feature-pro-control {
+  position: absolute;
+  left: 0;
+  bottom: -55px;
+  width: 100%;
+  text-align: center;
+  transition: all, 0.5s;
+}
+
+.feature-pro-control ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.feature-pro-control ul li:last-child {
+  margin-right: 0;
+}
+
+.feature-pro-control ul li:hover a {
+  background: #7fad39;
+  border-color: #7fad39;
+}
+
+.feature-pro-control ul li:hover a i {
+  color: #ffffff;
+  transform: rotate(360deg);
+}
+
+.feature-pro-control li a {
+  font-size: 16px;
+  color: #1c1c1c;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  background: #ffffff;
+  display: block;
+  border-radius: 50%;
+  -webkit-transition: all, 0.5s;
+  -moz-transition: all, 0.5s;
+  -ms-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
+}
+
+.feature-pro-control li a i {
+  position: relative;
+  transform: rotate(0);
+  -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+}

@@ -3,6 +3,9 @@ import "../../assets/css/home.css"
 import banner1 from "../../assets/images/banner-01.jpg"
 import banner2 from "../../assets/images/banner-02.jpg"
 import banner3 from "../../assets/images/banner-03.jpg"
+import FeaturedProduct from '../../component/FeaturedProduct/FeaturedProduct'
+import { OurProduct } from '../../component/OurProduct/OurProduct'
+import { ProductList } from '../../component/ProductList/ProductList'
 import { Product } from '../product/Product'
 
 export const Home = () => {
@@ -46,6 +49,9 @@ export const Home = () => {
                 </div>
             </div>
             <Product />
+            <ProductList />
+            <OurProduct />
+            <FeaturedProduct />
         </>
     )
 }

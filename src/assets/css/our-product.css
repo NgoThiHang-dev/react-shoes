@@ -1,0 +1,101 @@
+.our-product {
+  width: 100%;
+  height: 100vh;
+}
+
+.our-pro-title {
+  text-align: center;
+}
+
+.our-pro-title h3 {
+  font-size: 40px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.our-text-orange {
+  color: #f28123;
+}
+
+.our-pro-title h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #f28123;
+  margin: 0 auto;
+}
+
+.our-pro-title p {
+  font-size: 15px;
+  line-height: 1.8;
+  width: 540px;
+  color: #555;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.our-pro-list {
+  margin-top: 50px;
+}
+
+.our-pro-box {
+  width: 90%;
+  height: 100%;
+  box-shadow: 0 0 20px #e4e4e4;
+  padding-bottom: 50px;
+  border-radius: 5px;
+}
+
+.our-pro-box img {
+  max-width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+.our-pro-info {
+  text-align: center;
+}
+.our-pro-info p.our-pro-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.our-pro-info p.our-pro-price {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.our-pro-info span {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.btn-add-cart {
+  text-align: center;
+}
+
+.btn-add-cart button {
+  border: none;
+  background: #f28123;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #f9f9f9;
+}
+
+.btn-add-cart button i {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.btn-add-cart button:hover {
+  background: #051922;
+  color: #f28123;
+}
+
+.our-pro-box:hover {
+  box-shadow: none;
+}

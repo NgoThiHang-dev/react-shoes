@@ -1,5 +1,7 @@
 .product-box {
   padding: 70px 0px;
+  height: 100vh;
+  margin-top: 50px;
 }
 
 .title-all h1 {
@@ -45,6 +47,7 @@
   overflow: hidden;
   position: relative;
 }
+
 .product-single .box-img-hover img {
   margin: 0 auto;
   text-align: center;
@@ -121,10 +124,12 @@
   background: #000000;
   color: #ffffff;
 }
+
 .mask-icon ul li a:hover {
   background: #000000;
   color: #ffffff;
 }
+
 .product-single .mask-icon {
   background: rgba(1, 1, 1, 0.5);
   top: -100%;
@@ -137,6 +142,7 @@
   -ms-transition: all 0.3s ease-out 0.5s;
   transition: all 0.3s ease-out 0.5s;
 }
+
 .product-single:hover .mask-icon {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
